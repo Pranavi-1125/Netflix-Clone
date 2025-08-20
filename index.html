@@ -7,10 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id = main>
+    <div class = 'main'>
+        <nav>
+        <img src = 'Netflix-Logo.svg' alt = 'Netflix Logo'>
+        <select id="Lang" name="Lang" title="Select Language">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+        <button id = 'sign-in'>Sign In</button>
+    </nav>
+        <div class="container">
         <h1>Unlimited movies, TV show and more</h1>
-        <h3>Starts at ₹149. Cancel at any time</h3>
-        <h3>Ready to watch? Enter</h3>
-    </div>
+        <p>Starts at ₹149. Cancel at any time</p>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      
+         <input type = 'Email' placeholder = 'Email address' id = 'email'>
+         <button id = 'submit'>Get Started > </button>
+         </div>
+    </div> 
 </body>
 </html>
