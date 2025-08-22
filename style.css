@@ -8,7 +8,6 @@
 nav {
      display: flex; /*diplays side by side */
     justify-content: space-between; 
-    /* justify-content: space-around; */
     align-items: center;
     margin: auto;
     position: absolute;
@@ -16,8 +15,6 @@ nav {
     width: 85%;
     height:120px;
     z-index: 10;
-    /* background-color: black; */
-
 }
 
 .main nav #Lang{
@@ -152,3 +149,69 @@ img{
     font-weight: 500;
     cursor: pointer;
 }
+
+
+/*---------------------------- Page two ------------------------------ */
+
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.TV{
+    position: relative;
+    left: 270px;
+    display:flex;
+
+}
+
+.TV img{
+    width: 40vw;
+    height: 30vw;
+    margin-top: 18px;
+    margin-left: -43px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.TV video{
+    /* position: absolute;
+    top: 51px;
+    z-index: 999;
+    margin: 70px;
+    width: 580px;
+    height: 350px; */
+/* 
+    position: absolute;
+    top: 61px;
+    z-index: 999;
+    left: -1vw;
+    margin: 80px;
+    width: 574px;
+    height: 319px; */
+
+    position: absolute;
+    top: 64px;
+    z-index: 999;
+    left: -1vw;
+    margin: 80px;
+    width: 596px;
+    height: 325px;
+}
+
+.head2{
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: -148px;
+    font-size:250%;
+    width: 45%;
+
+}
+
